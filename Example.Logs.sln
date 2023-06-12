@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{7BB843D2-9AFC-4376-8AF0-3A61BAE1BDF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{89EBFD72-D986-4756-A20E-6A786889A3BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{759BE091-B1E4-44BF-9BF2-1BBD9E1EBBD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{55806A40-6AE0-45DF-BF28-9E501FE677F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{22127CDD-06E5-4D5E-9BC6-93113ED3BA13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{FFA829A8-9447-456D-8E56-E0DC4C36F03F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Test", "5 - Test", "{CFBA4998-CEA2-4C01-9317-18AC26E4C690}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Logs.Api.SqlIte", "src\Example.Logs.Api.SqlIte\Example.Logs.Api.SqlIte.csproj", "{992DA5A8-3FBE-43DD-BC2F-02F03256A6F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Logs.Domain", "src\Example.Logs.Domain\Example.Logs.Domain.csproj", "{80276D30-01BD-458F-8307-5BDC63BBD3F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Logs.API.Kibana", "src\Example.Logs.API.Kibana\Example.Logs.API.Kibana.csproj", "{441376C3-E5E7-4EA7-9880-FC6ADAB7D56B}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C5D78A88-FD0A-4146-B233-CB618AC3C83E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{992DA5A8-3FBE-43DD-BC2F-02F03256A6F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{992DA5A8-3FBE-43DD-BC2F-02F03256A6F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{992DA5A8-3FBE-43DD-BC2F-02F03256A6F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{992DA5A8-3FBE-43DD-BC2F-02F03256A6F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80276D30-01BD-458F-8307-5BDC63BBD3F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80276D30-01BD-458F-8307-5BDC63BBD3F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80276D30-01BD-458F-8307-5BDC63BBD3F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80276D30-01BD-458F-8307-5BDC63BBD3F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{441376C3-E5E7-4EA7-9880-FC6ADAB7D56B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441376C3-E5E7-4EA7-9880-FC6ADAB7D56B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441376C3-E5E7-4EA7-9880-FC6ADAB7D56B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441376C3-E5E7-4EA7-9880-FC6ADAB7D56B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D78A88-FD0A-4146-B233-CB618AC3C83E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D78A88-FD0A-4146-B233-CB618AC3C83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D78A88-FD0A-4146-B233-CB618AC3C83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D78A88-FD0A-4146-B233-CB618AC3C83E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22127CDD-06E5-4D5E-9BC6-93113ED3BA13} = {55806A40-6AE0-45DF-BF28-9E501FE677F8}
+		{FFA829A8-9447-456D-8E56-E0DC4C36F03F} = {55806A40-6AE0-45DF-BF28-9E501FE677F8}
+		{992DA5A8-3FBE-43DD-BC2F-02F03256A6F3} = {7BB843D2-9AFC-4376-8AF0-3A61BAE1BDF5}
+		{80276D30-01BD-458F-8307-5BDC63BBD3F3} = {759BE091-B1E4-44BF-9BF2-1BBD9E1EBBD0}
+		{441376C3-E5E7-4EA7-9880-FC6ADAB7D56B} = {7BB843D2-9AFC-4376-8AF0-3A61BAE1BDF5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0ABC479E-2087-4C55-9D1E-3F2F5F7D3A0B}
+	EndGlobalSection
+EndGlobal
